@@ -18,7 +18,7 @@ The system is implemented and demonstrated using a **Jupyter Notebook**.
 
 ## System Workflow
 
-1. Image input (captured using mobile phone or camera)
+1. Image input (captured using mobile phone)
 2. Image preprocessing
 3. Feature extraction
 4. Part recognition using a machine learning model
@@ -47,31 +47,53 @@ The system is implemented and demonstrated using a **Jupyter Notebook**.
 
 ## Dataset
 
-- Images were captured manually by group members
 - Multiple images per part with different:
   - View angles
   - Lighting conditions
   - Backgrounds
 - Additional images containing multiple parts for counting
-- Dataset is not included in this repository
 
 ---
 
 ## How to Run
 
-1. Ensure Python is installed.
-2. Install required libraries:
-   - OpenCV
-   - NumPy
-   - Matplotlib
-   - Scikit-learn
-3. Open the Jupyter Notebook:
+### Step 1: Create and Activate a Virtual Environment (optional)
+
+Open **Command Prompt** in the project directory:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
-jupyter notebook TPR2251_Project.ipynb
+---
+
+### Step 2: Install Required Dependencies
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+---
+
+### Step 3: Run the Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Then open and run:
 
 ```
-4. Run the cells sequentially to reproduce the results.
+Machine Part recognition and counting (training and tkinter).ipynb
+```
+
+Run the cells sequentially to reproduce the results.
+
+
+<img width="500" height="523" alt="image" src="https://github.com/user-attachments/assets/efd2a524-07a7-4b4c-ad48-b7a42e3cc7ca" />
+
 
 ---
 
